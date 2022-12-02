@@ -58,6 +58,11 @@ img {
   padding-top: 80px;
   padding-bottom: 80px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(#002658c4, #002658c4),
+    url(../images/cloud-pixel.gif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .shadow-effect {
@@ -102,9 +107,10 @@ img {
     min-height: 100vh;
     width: var(--sidbar-width);
     background: linear-gradient(#003c6cc4, #003c6cc4),
-      url(../images/sidebar-img.jpg);
+      url(../images/sidebar-1.gif);
     background-size: cover;
     background-position: center;
+    box-shadow: 10px 0 18px 0 rgba(0, 0, 0, 0.568);
   }
 
   .navbar-brand img {
@@ -162,9 +168,9 @@ img {
 }
 
 .card-custom .card-custom-image img {
-  transition: all 0.4s ease;
+  transition: all 0.4s ease-out;
 }
 
 .card-custom:hover .card-custom-image img {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
